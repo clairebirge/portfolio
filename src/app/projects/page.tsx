@@ -15,7 +15,7 @@ const project = [
     id: 2,
     title: 'PopUp (Social Event App)',
     description: 'Scoped and prototyped a full-stack MVP to help users discover and attend nearby events. Led team coordination and prioritized features under tight deadlines.',
-    image: '/images/popup3.PNG',
+    image: '/images/popup3.png',
     skills: [
       'Product Design',
       'Rapid Prototyping',

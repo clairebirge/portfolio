@@ -15,7 +15,7 @@ export default function BedbugsBiteProject() {
 
         {/* Project header */}
         <div className="mb-12">
-          <h1 className="text-4xl font-bold mb-4">Don&apos;t Let the Bedbugs Bite</h1>
+          <h1 className="text-4xl font-bold mb-4">Don't Let the Bedbugs Bite</h1>
           <p className="text-xl text-gray-600 mb-6">
             A fun and nostalgic game developed on Godot, featuring engaging gameplay mechanics and charming digital art.
           </p>
@@ -40,7 +40,7 @@ export default function BedbugsBiteProject() {
         <div className="relative h-96 mb-12 rounded-lg overflow-hidden shadow-lg">
           <Image
             src="/images/ladybug.png"
-            alt="Bedbugs Game Screenshot"
+            alt="Don't Let the Bedbugs Bite Game Screenshot"
             fill
             className="object-cover"
           />
@@ -84,7 +84,7 @@ export default function BedbugsBiteProject() {
             <h2 className="text-2xl font-semibold mb-6">About the Project</h2>
             <div className="prose prose-gray max-w-none">
               <p className="mb-4">
-                Created with a team, "Don&apos;t Let the Bedbugs Bite" is a charming game that captures the nostalgic feeling of being told a bedtime story and 
+                Created with a team, "Don't Let the Bedbugs Bite" is a charming game that captures the nostalgic feeling of being told a bedtime story and 
                 classic arcade games 
                 while bringing fresh, modern gameplay elements to the table.
               </p>
