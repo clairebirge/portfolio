@@ -25,7 +25,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-5xl md:text-6xl font-bold text-gray-900 mb-6"
           >
-            Hi, I'm <span className="text-purple-600">Claire Birge</span>
+            Hi, I&apos;m <span className="text-purple-600">Claire Birge</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -167,7 +167,7 @@ export default function Home() {
                   <div className="relative h-48">
                     <Image
                       src="/images/ladybug.png"
-                      alt="Don't Let the Bedbugs Bite Game"
+                      alt="Bedbugs Bite Game"
                       fill
                       className="object-cover"
                     />
@@ -179,7 +179,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">Don't Let the Bedbugs Bite</h3>
+                    <h3 className="text-xl font-semibold mb-2">Don&apos;t Let the Bedbugs Bite</h3>
                     <p className="text-gray-600 mb-4">
                       A nostalgic game developed on Godot that captures the feeling of being told a bedtime story, featuring engaging gameplay mechanics and original artwork.
                     </p>
