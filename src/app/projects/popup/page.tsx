@@ -42,7 +42,7 @@ export default function PopUpProject() {
         {/* Project image */}
         <div className="relative h-96 mb-12 rounded-lg overflow-hidden shadow-lg">
           <Image
-            src="/images/popup3.PNG"
+            src="/images/popup3.png"
             alt="PopUp Social Event App Screenshot"
             fill
             className="object-cover"
