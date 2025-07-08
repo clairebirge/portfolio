@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Quicksand:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: linear-gradient(135deg, #f3e8ff 0%, #fbc2eb 50%, #a1c4fd 100%);
+  --foreground: #22223b;
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-blur: 18px;
+  --accent: #a78bfa;
+  --accent-dark: #7c3aed;
+  --accent-light: #fbc2eb;
+  --fun-shadow: 0 8px 32px 0 rgba(186, 104, 200, 0.18), 0 2px 8px 0 rgba(255, 175, 189, 0.12);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: linear-gradient(135deg, #18122b 0%, #7f53ac 50%, #647dee 100%);
+    --foreground: #f8f8ff;
+    --glass-bg: rgba(24, 18, 43, 0.85);
+    --glass-blur: 18px;
+    --accent: #c4b5fd;
+    --accent-dark: #a78bfa;
+    --accent-light: #7f53ac;
+    --fun-shadow: 0 8px 32px 0 rgba(186, 104, 200, 0.28), 0 2px 8px 0 rgba(100, 125, 222, 0.18);
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Quicksand', 'Inter', Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background-attachment: fixed;
+  font-size: 1.1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Baloo 2', 'Quicksand', Arial, Helvetica, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+/* Glassmorphism utility for cards/sections */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border-radius: 1.5rem;
+  box-shadow: var(--fun-shadow);
+  border: 2px solid var(--accent-light);
+}
+
+/* Extra fun rounded corners */
+.rounded-fun {
+  border-radius: 2.5rem;
+}
+
+/* Fun drop shadow utility */
+.fun-shadow {
+  box-shadow: var(--fun-shadow);
+}
+
+/* Accent underline for headings */
+.heading-accent {
+  display: inline-block;
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.2em;
+  margin-bottom: 0.5em;
+}

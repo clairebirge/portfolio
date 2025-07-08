@@ -1,54 +1,104 @@
-<header>
+# Modern Portfolio Website
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS. This portfolio template includes a clean design, smooth animations, and a fully responsive layout that works great on all devices.
 
-# GitHub Pages
+## Features
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+- 🚀 Built with Next.js 14 and TypeScript
+- 🎨 Styled with Tailwind CSS
+- 📱 Fully responsive design
+- 🎭 Modern and clean UI
+- 🔍 SEO optimized
+- 📝 Contact form
+- 🖼️ Project showcase
+- 📄 About page
+- 🔗 Social media integration
 
-</header>
+## Getting Started
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+### Prerequisites
 
-## Step 1: Enable GitHub Pages
+- Node.js 18.17 or later
+- npm or yarn
 
-_Welcome to GitHub Pages and Jekyll :tada:!_
+### Installation
 
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
+```
 
-### :keyboard: Activity: Enable GitHub Pages
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
+3. Run the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-<footer>
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
+## Project Structure
 
----
+```
+portfolio/
+├── src/
+│   ├── app/
+│   │   ├── about/
+│   │   ├── contact/
+│   │   ├── projects/
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components/
+│       └── layout/
+│           ├── Header.tsx
+│           └── Footer.tsx
+├── public/
+├── package.json
+└── README.md
+```
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+## Customization
 
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+1. Update the personal information in each component
+2. Replace placeholder images in the `public` directory
+3. Modify the color scheme in the Tailwind configuration
+4. Add your own projects to the projects array
+5. Customize the contact form functionality
 
-</footer>
+## Deployment
+
+This project can be easily deployed to Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/portfolio)
+
+## Built With
+
+- [Next.js](https://nextjs.org/) - The React Framework
+- [TypeScript](https://www.typescriptlang.org/) - JavaScript with syntax for types
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## Contact
+
+Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+
+Project Link: [https://github.com/yourusername/portfolio](https://github.com/yourusername/portfolio)
