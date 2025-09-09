@@ -29,7 +29,7 @@ const project = [
     id: 3,
     title: 'DataSpires Market Intelligence Platform',
     description: "Comprehensive market and data analytics platform enabling infrastructure investments across Africa's growing tech ecosystem",
-    image: 'public/images/dataspires.jpg',
+    image: '/images/dataspires.jpg',
     skills: ['Fullstack Development', 'API Integration', 'Data Engineering', 'Product Strategy and Management'],
     builtWith: ['JavaScript', 'SQL', 'Supabase'],
     link: '/projects/dataspires',

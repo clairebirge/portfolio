@@ -16,7 +16,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: 'easeOut' }}
-        className="relative min-h-[60vh] flex flex-col items-start justify-center pt-10 bg-gradient-to-r from-purple-50 to-violet-50"
+        className="relative min-h-[80vh] flex flex-col items-start justify-center pt-10 bg-gradient-to-r from-purple-50 to-violet-50"
       >
         <div className="container mx-auto px-6 text-center">
           <motion.h1
