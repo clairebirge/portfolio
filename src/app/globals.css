@@ -31,7 +31,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Quicksand', 'Inter', Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', 'Quicksand', 'Quicksand', Helvetica, sans-serif;
   min-height: 100vh;
   background-attachment: fixed;
   font-size: 1.1rem;

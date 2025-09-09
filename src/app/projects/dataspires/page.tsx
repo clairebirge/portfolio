@@ -42,7 +42,7 @@ export default function PortfolioWebsiteProject() {
         {/* Project image */}
         <div className="relative h-96 mb-12 rounded-lg overflow-hidden shadow-lg">
           <Image
-            src="public\images\market-analytics.jpg"
+            src="public/mages/market-analytics.jpg"
             alt="Portfolio Website Screenshot"
             fill
             className="object-cover"
@@ -56,7 +56,7 @@ export default function PortfolioWebsiteProject() {
             <h2 className="text-2xl font-semibold mb-6">Skills Demonstrated</h2>
             <div className="space-y-4">
               <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Fulstack Development</h3>
+                <h3 className="font-medium text-gray-900 mb-2">Fullstack Development</h3>
                 <p className="text-gray-600 text-sm">
                   Built a responsive, modern web application using React and Next.js with TypeScript for type safety.
                 </p>
