@@ -82,8 +82,7 @@ export default function Home() {
         </div>
       </motion.section>
 
-<<<<<<< HEAD
-=======
+
       {/* Explore Section */}
       <motion.section
         initial="hidden"
@@ -134,7 +133,6 @@ export default function Home() {
         </motion.div>
       </motion.section>
 
->>>>>>> e8fabbfbb0570da5d5feedc0d8ea3bbdef23e917
       {/* Featured Projects Section */}
       <motion.section
         initial={{ opacity: 0, y: 40 }}
