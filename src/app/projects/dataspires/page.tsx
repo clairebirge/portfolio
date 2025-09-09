@@ -42,7 +42,7 @@ export default function PortfolioWebsiteProject() {
         {/* Project image */}
         <div className="relative h-96 mb-12 rounded-lg overflow-hidden shadow-lg">
           <Image
-            src="/images/portfolio-screenshot.png"
+            src="public\images\market-analytics.jpg"
             alt="Portfolio Website Screenshot"
             fill
             className="object-cover"
@@ -126,15 +126,15 @@ export default function PortfolioWebsiteProject() {
         <div className="mt-16 text-center">
           <div className="bg-gray-50 p-8 rounded-lg">
             <p className="text-gray-700 mb-4">
-              The complete source code and documentation for this project is available on{' '}
+              The complete documentation for this project is available {' '}
               <a 
-                href="https://github.com/yourusername/portfolio" 
+                href="https://docs.google.com/document/d/1pMn4jlEd-38PWbIc7oIzuZ8z0nNrAz1xPQ1knP6wAB8/edit?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-purple-600 hover:text-purple-700 underline font-medium"
               >
-                GitHub
-              </a>, including setup instructions, development guidelines, and deployment configuration.
+                here
+              </a>, for a more thorough breakdown of the development process and technologies used.
             </p>
           </div>
         </div>
