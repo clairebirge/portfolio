@@ -83,55 +83,6 @@ export default function Home() {
       </motion.section>
 
 
-      {/* Explore Section */}
-      <motion.section
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={sectionVariants}
-        className="container mx-auto px-6 mt-16"
-      >
-        <motion.div
-          className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-        >
-          {[0, 1, 2].map((i) => (
-            <motion.div
-              key={i}
-              variants={sectionVariants}
-              transition={{ duration: 0.7, delay: i * 0.15 }}
-              className=""
-            >
-              {i === 0 && (
-                <Link href="/about" className="group">
-                  <div className="glass p-8 flex flex-col items-center text-center hover:shadow-2xl transition-shadow cursor-pointer h-full group-hover:ring-2 group-hover:ring-purple-300">
-                    <h3 className="text-2xl font-bold mb-2">About Me</h3>
-                    <span className="text-purple-600 group-hover:text-purple-800 font-medium">Read More →</span>
-                  </div>
-                </Link>
-              )}
-              {i === 1 && (
-                <Link href="/projects" className="group">
-                  <div className="glass p-8 flex flex-col items-center text-center hover:shadow-2xl transition-shadow cursor-pointer h-full group-hover:ring-2 group-hover:ring-purple-300">
-                    <h3 className="text-2xl font-bold mb-2">Projects</h3>
-                    <span className="text-purple-600 group-hover:text-purple-800 font-medium">See Projects →</span>
-                  </div>
-                </Link>
-              )}
-              {i === 2 && (
-                <Link href="/about" className="group">
-                  <div className="glass p-8 flex flex-col items-center text-center hover:shadow-2xl transition-shadow cursor-pointer h-full group-hover:ring-2 group-hover:ring-purple-300">
-                    <h3 className="text-2xl font-bold mb-2">Case Studies</h3>
-                    <span className="text-purple-600 group-hover:text-purple-800 font-medium">Learn More →</span>
-                  </div>
-                </Link>
-              )}
-            </motion.div>
-          ))}
-        </motion.div>
-      </motion.section>
 
       {/* Featured Projects Section */}
       <motion.section
@@ -152,7 +103,6 @@ export default function Home() {
         </motion.h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {[0, 2].map((i) => (
-          {[0, 1].map((i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 30 }}
