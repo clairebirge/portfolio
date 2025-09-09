@@ -25,6 +25,15 @@ const project = [
     builtWith: ['React', 'Supabase'],
     link: '/projects/popup',
   },
+  {
+    id: 3,
+    title: 'DataSpires Market Intelligence Platform',
+    description: "Comprehensive market and data analytics platform enabling infrastructure investments across Africa's growing tech ecosystem",
+    image: '/images/portfolio-screenshot.png',
+    skills: ['Fullstack Development', 'API Integration', 'Data Engineering', 'Product Strategy and Management'],
+    builtWith: ['JavaScript', 'SQL', 'Supabase'],
+    link: '/projects/dataspires',
+  },
 ];
 
 

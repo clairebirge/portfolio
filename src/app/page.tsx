@@ -106,7 +106,6 @@ export default function Home() {
               {i === 0 && (
                 <Link href="/about" className="group">
                   <div className="glass p-8 flex flex-col items-center text-center hover:shadow-2xl transition-shadow cursor-pointer h-full group-hover:ring-2 group-hover:ring-purple-300">
-                    <span className="text-purple-600 text-4xl mb-4">👋</span>
                     <h3 className="text-2xl font-bold mb-2">About Me</h3>
                     <span className="text-purple-600 group-hover:text-purple-800 font-medium">Read More →</span>
                   </div>
@@ -115,7 +114,6 @@ export default function Home() {
               {i === 1 && (
                 <Link href="/projects" className="group">
                   <div className="glass p-8 flex flex-col items-center text-center hover:shadow-2xl transition-shadow cursor-pointer h-full group-hover:ring-2 group-hover:ring-purple-300">
-                    <span className="text-purple-600 text-4xl mb-4">💡</span>
                     <h3 className="text-2xl font-bold mb-2">Projects</h3>
                     <span className="text-purple-600 group-hover:text-purple-800 font-medium">See Projects →</span>
                   </div>
@@ -124,8 +122,7 @@ export default function Home() {
               {i === 2 && (
                 <Link href="/about" className="group">
                   <div className="glass p-8 flex flex-col items-center text-center hover:shadow-2xl transition-shadow cursor-pointer h-full group-hover:ring-2 group-hover:ring-purple-300">
-                    <span className="text-purple-600 text-4xl mb-4">📊</span>
-                    <h3 className="text-2xl font-bold mb-2">About Me</h3>
+                    <h3 className="text-2xl font-bold mb-2">Case Studies</h3>
                     <span className="text-purple-600 group-hover:text-purple-800 font-medium">Learn More →</span>
                   </div>
                 </Link>
