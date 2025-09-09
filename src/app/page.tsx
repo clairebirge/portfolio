@@ -102,7 +102,7 @@ export default function Home() {
           Featured Projects
         </motion.h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {[0, 2].map((i) => (
+          {[0, 1, 2].map((i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 30 }}
