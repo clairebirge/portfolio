@@ -153,11 +153,8 @@ export default function Home() {
           Featured Projects
         </motion.h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-<<<<<<< HEAD
           {[0, 2].map((i) => (
-=======
           {[0, 1].map((i) => (
->>>>>>> e8fabbfbb0570da5d5feedc0d8ea3bbdef23e917
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 30 }}
@@ -229,7 +226,6 @@ export default function Home() {
                   </div>
                 </>
               )}
-<<<<<<< HEAD
               {i === 2 && (
                 <>
                   <div className="relative h-48">
