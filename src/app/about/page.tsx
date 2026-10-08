@@ -114,6 +114,13 @@ export default function About() {
                 event promotion, and collaboration with campus organizations.
               </p>
             </div>
+            <div className="border-l-4 border-purple-600 pl-4">
+              <h3 className="text-xl font-medium">Facilitator, Stanford Flip the Script</h3>
+              <p className="mt-2 text-gray-600 dark:text-gray-300">
+                Facilitated Flip the Script, a sexual violence prevention workshop, guiding participants through
+                discussions and skill-building to help create a safer campus community.
+              </p>
+            </div>
           </div>
         </section>
       </div>
