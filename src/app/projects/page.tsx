@@ -34,6 +34,15 @@ const project = [
     builtWith: ['JavaScript', 'SQL', 'Supabase'],
     link: '/projects/dataspires',
   },
+  {
+    id: 4,
+    title: 'SparkBook (Artist Inspiration App)',
+    description: 'A mobile digital notebook that helps artists capture multimedia inspiration and organize it with AI-assisted tools, built from needfinding through a working high-fi prototype.',
+    image: '/images/sparkbook.svg',
+    skills: ['Product Management', 'User Research', 'Usability Testing', 'Mobile Development'],
+    builtWith: ['React Native', 'Expo', 'Supabase'],
+    link: '/projects/sparkbook',
+  },
 ];
 
 
@@ -44,7 +53,7 @@ export default function Projects() {
       
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {project.map((projectItem) => (
-          <div key={projectItem.id} className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div key={projectItem.id} className="bg-white dark:bg-white/10 rounded-lg shadow-md overflow-hidden">
             <div className="relative h-48">
               <Image
                 src={projectItem.image}
@@ -68,16 +77,16 @@ export default function Projects() {
             </div>
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">{projectItem.title}</h3>
-              <p className="text-gray-600 mb-4">{projectItem.description}</p>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">{projectItem.description}</p>
               
               {projectItem.skills && (
                 <div className="mb-4">
-                  <h3 className="text-sm font-medium text-gray-500 mb-2">Skills:</h3>
+                  <h3 className="text-sm font-medium text-gray-500 dark:text-gray-400 mb-2">Skills:</h3>
                   <div className="flex flex-wrap gap-2">
                     {projectItem.skills.map((skill: string) => (
                       <span
                         key={skill}
-                        className="px-3 py-1 bg-gray-100 text-gray-600 rounded-full text-sm"
+                        className="px-3 py-1 bg-gray-100 dark:bg-white/10 text-gray-600 dark:text-gray-300 rounded-full text-sm"
                       >
                         {skill}
                       </span>

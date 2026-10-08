@@ -7,25 +7,25 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed w-full bg-white/80 backdrop-blur-sm z-50 shadow-sm">
+    <header className="fixed w-full bg-white/80 dark:bg-[#18122b]/80 backdrop-blur-sm z-50 shadow-sm">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-2xl font-bold text-gray-800">
+          <Link href="/" className="text-2xl font-bold text-gray-800 dark:text-gray-100">
             Claire Birge - Portfolio
           </Link>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <Link href="/" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <Link href="/" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
               Home
             </Link>
-            <Link href="/projects" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <Link href="/projects" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
               Projects
             </Link>
-            <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <Link href="/about" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
               About
             </Link>
-            <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">
+            <Link href="/contact" className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors">
               Contact
             </Link>
           </div>
@@ -59,31 +59,25 @@ export default function Header() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link
                 href="/"
-                className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"
+                className="block px-3 py-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
                 Home
               </Link>
               <Link
                 href="/projects"
-                className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"
+                className="block px-3 py-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
                 Projects
               </Link>
               <Link
-                href="/case-studies"
-                className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"
-              >
-                Case Studies
-              </Link>
-              <Link
                 href="/about"
-                className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"
+                className="block px-3 py-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
                 About
               </Link>
               <Link
                 href="/contact"
-                className="block px-3 py-2 text-gray-600 hover:text-gray-900 transition-colors"
+                className="block px-3 py-2 text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
               >
                 Contact
               </Link>

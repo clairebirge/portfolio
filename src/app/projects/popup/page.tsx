@@ -8,7 +8,7 @@ export default function PopUpProject() {
         {/* Back button */}
         <Link 
           href="/projects" 
-          className="inline-flex items-center text-purple-600 hover:text-purple-700 mb-8"
+          className="inline-flex items-center text-purple-600 dark:text-purple-300 hover:text-purple-700 dark:hover:text-purple-200 mb-8"
         >
           ← Back to Projects
         </Link>
@@ -16,7 +16,7 @@ export default function PopUpProject() {
         {/* Project header */}
         <div className="mb-12">
           <h1 className="text-4xl font-bold mb-4">PopUp - Social Event App</h1>
-          <p className="text-xl text-gray-600 mb-6">
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
             A full-stack MVP that helps users discover and attend nearby events. Led team coordination and prioritized features under tight deadlines.
           </p>
           
@@ -55,27 +55,27 @@ export default function PopUpProject() {
           <div>
             <h2 className="text-2xl font-semibold mb-6">Skills Demonstrated</h2>
             <div className="space-y-4">
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Product Design</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Product Design</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Designed user-centered solutions that address real user needs and pain points in event discovery.
                 </p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Rapid Prototyping</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Rapid Prototyping</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Quickly built and iterated on prototypes to validate ideas and gather user feedback efficiently.
                 </p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">User Flow Design</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">User Flow Design</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Created intuitive user journeys that guide users seamlessly from discovery to event attendance.
                 </p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Research</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Research</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Conducted user research to understand target audience needs and validate product assumptions.
                 </p>
               </div>
@@ -100,7 +100,7 @@ export default function PopUpProject() {
                 validate assumptions and refine the product based on real user needs and behaviors.
               </p>
               <h3 className="text-lg font-semibold mt-6 mb-3">Key Features</h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-600">
+              <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
                 <li>Event discovery and filtering</li>
                 <li>User authentication and profiles</li>
                 <li>Live events dashboard</li>
@@ -108,7 +108,7 @@ export default function PopUpProject() {
                 <li>Event albums and feed</li>
               </ul>
               <h3 className="text-lg font-semibold mt-6 mb-3">Technical Highlights</h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-600">
+              <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
                 <li>React hooks and modern state management</li>
                 <li>Geolocation services integration</li>
                 <li>Optimized performance and loading times</li>
@@ -119,14 +119,14 @@ export default function PopUpProject() {
 
         {/* Documentation section - centered at bottom */}
         <div className="mt-16 text-center">
-          <div className="bg-gray-50 p-8 rounded-lg">
-            <p className="text-gray-700 mb-4">
+          <div className="bg-gray-50 dark:bg-white/10 p-8 rounded-lg">
+            <p className="text-gray-700 dark:text-gray-200 mb-4">
               You can read the full project documentation {' '}
               <a 
                 href="https://docs.google.com/document/d/1BttqOzv3XjaKuNm9h0U6mBUPTKGuGDt-zjMQ7KDqlCY/edit?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-purple-600 hover:text-purple-700 underline font-medium"
+                className="text-purple-600 dark:text-purple-300 hover:text-purple-700 dark:hover:text-purple-200 underline font-medium"
               >
                 here
               </a>, which includes design goals, a competitor analysis, a walkthrough of the features and pages, an in-depth look
