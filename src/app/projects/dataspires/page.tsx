@@ -8,7 +8,7 @@ export default function PortfolioWebsiteProject() {
         {/* Back button */}
         <Link 
           href="/projects" 
-          className="inline-flex items-center text-purple-600 hover:text-purple-700 mb-8"
+          className="inline-flex items-center text-purple-600 dark:text-purple-300 hover:text-purple-700 dark:hover:text-purple-200 mb-8"
         >
           ← Back to Projects
         </Link>
@@ -16,7 +16,7 @@ export default function PortfolioWebsiteProject() {
         {/* Project header */}
         <div className="mb-12">
           <h1 className="text-4xl font-bold mb-4">DataSpires Market Intelligence Platform</h1>
-          <p className="text-xl text-gray-600 mb-6">
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
             A comprehensive market and data analytics platform enabling infrastructure investments across Africa's growing tech ecosystem
           </p>
           
@@ -55,27 +55,27 @@ export default function PortfolioWebsiteProject() {
           <div>
             <h2 className="text-2xl font-semibold mb-6">Skills Demonstrated</h2>
             <div className="space-y-4">
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Fullstack Development</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Fullstack Development</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Built a responsive, modern web application using React and Next.js with TypeScript for type safety.
                 </p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">API Integration and Development</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">API Integration and Development</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                 Integrated multiple data sources (energy API, AfterFibre, Supabase)
                 </p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Data Engineering</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Data Engineering</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Designed and implemented a robust data pipeline for ingesting and processing data relating to product performance and market trends.
                 </p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Product Strategy and Management</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Product Strategy and Management</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Owned the strategy and development of this platform, a major differentiator for the company
                 </p>
               </div>
@@ -101,7 +101,7 @@ export default function PortfolioWebsiteProject() {
               </p>
 
               <h3 className="text-lg font-semibold mt-6 mb-3">Key Features</h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-600">
+              <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
                 <li>Responsive design for all screen sizes</li>
                 <li>Fast loading times and SEO optimization</li>
                 <li>Clean, modern UI with smooth animations</li>
@@ -111,7 +111,7 @@ export default function PortfolioWebsiteProject() {
               </ul>
 
               <h3 className="text-lg font-semibold mt-6 mb-3">Technical Highlights</h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-600">
+              <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
                 <li>Next.js App Router for modern React development</li>
                 <li>TypeScript for enhanced code quality and maintainability</li>
                 <li>Tailwind CSS for utility-first styling</li>
@@ -124,14 +124,14 @@ export default function PortfolioWebsiteProject() {
 
         {/* Documentation section - centered at bottom */}
         <div className="mt-16 text-center">
-          <div className="bg-gray-50 p-8 rounded-lg">
-            <p className="text-gray-700 mb-4">
+          <div className="bg-gray-50 dark:bg-white/10 p-8 rounded-lg">
+            <p className="text-gray-700 dark:text-gray-200 mb-4">
               The complete documentation for this project is available {' '}
               <a 
                 href="https://docs.google.com/document/d/1pMn4jlEd-38PWbIc7oIzuZ8z0nNrAz1xPQ1knP6wAB8/edit?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-purple-600 hover:text-purple-700 underline font-medium"
+                className="text-purple-600 dark:text-purple-300 hover:text-purple-700 dark:hover:text-purple-200 underline font-medium"
               >
                 here
               </a>, for a more thorough breakdown of the development process and technologies used.

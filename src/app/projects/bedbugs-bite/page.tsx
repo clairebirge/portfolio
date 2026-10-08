@@ -8,7 +8,7 @@ export default function BedbugsBiteProject() {
         {/* Back button */}
         <Link 
           href="/projects" 
-          className="inline-flex items-center text-purple-600 hover:text-purple-700 mb-8"
+          className="inline-flex items-center text-purple-600 dark:text-purple-300 hover:text-purple-700 dark:hover:text-purple-200 mb-8"
         >
           ← Back to Projects
         </Link>
@@ -16,7 +16,7 @@ export default function BedbugsBiteProject() {
         {/* Project header */}
         <div className="mb-12">
           <h1 className="text-4xl font-bold mb-4">Don't Let the Bedbugs Bite</h1>
-          <p className="text-xl text-gray-600 mb-6">
+          <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
             A fun and nostalgic game developed on Godot, featuring engaging gameplay mechanics and charming digital art.
           </p>
           
@@ -52,27 +52,27 @@ export default function BedbugsBiteProject() {
           <div>
             <h2 className="text-2xl font-semibold mb-6">Skills Demonstrated</h2>
             <div className="space-y-4">
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Gameplay Programming</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Gameplay Programming</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Developed core game mechanics, player controls, and interactive elements using Godot's scripting system.
                 </p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Iteration</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Iteration</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Continuously refined gameplay based on testing and feedback to create an engaging user experience.
                 </p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Project Management</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Project Management</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Planned and executed the game development process from concept to completion.
                 </p>
               </div>
-              <div className="bg-gray-50 p-4 rounded-lg">
-                <h3 className="font-medium text-gray-900 mb-2">Digital Art</h3>
-                <p className="text-gray-600 text-sm">
+              <div className="bg-gray-50 dark:bg-white/10 p-4 rounded-lg">
+                <h3 className="font-medium text-gray-900 dark:text-gray-100 mb-2">Digital Art</h3>
+                <p className="text-gray-600 dark:text-gray-300 text-sm">
                   Created original artwork and visual assets for the game's characters and environment.
                 </p>
               </div>
@@ -100,7 +100,7 @@ export default function BedbugsBiteProject() {
               </p>
 
               <h3 className="text-lg font-semibold mt-6 mb-3">Key Features</h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-600">
+              <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
                 <li>Intuitive touch/click controls</li>
                 <li>Progressive difficulty system</li>
                 <li>Original digital artwork</li>
@@ -113,8 +113,8 @@ export default function BedbugsBiteProject() {
 
         {/* Documentation section - centered at bottom */}
         <div className="mt-16 text-center">
-          <div className="bg-gray-50 p-8 rounded-lg">
-            <p className="text-gray-700 mb-4">
+          <div className="bg-gray-50 dark:bg-white/10 p-8 rounded-lg">
+            <p className="text-gray-700 dark:text-gray-200 mb-4">
               I also completed a thorough documentation writeup for our group, which showcases the entire design process. 
               You can read the full project documentation, including our artist's statement, 
               game systems analysis, and development process on the{' '}
@@ -122,7 +122,7 @@ export default function BedbugsBiteProject() {
                 href="https://mechanicsofmagic.com/2025/06/07/project-2-dont-let-the-bedbugs-bite-group-10/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-purple-600 hover:text-purple-700 underline font-medium"
+                className="text-purple-600 dark:text-purple-300 hover:text-purple-700 dark:hover:text-purple-200 underline font-medium"
               >
                 Stanford HCI Game Design Blog
               </a>.
